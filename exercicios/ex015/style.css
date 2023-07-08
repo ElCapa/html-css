@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    background-color: darkgray;
+}
+h1{
+    background-color: burlywood;
+    text-align: center;
+    font-size: 50px;
+    color:red;
+    border-radius: 50%;
+    border-bottom: 20px solid black;
+}
+h3{
+    color: green;
+    font-size: 35px;
+}
+p{
+    color: blue;
+    text-align: justify;
+    font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
