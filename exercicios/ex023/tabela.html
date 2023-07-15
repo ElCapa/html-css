@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        table{
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 800px;
+            height: 300px;
+            border: 1px solid #bdc3c7;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2) -1px -1px 8px rgba(0, 0, 0, 0.2);
+        }
+        tr{
+            transition: all .2s ease-in;
+            cursor: pointer;
+        }
+        th,td{
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .header{
+        background-color: #16a085;
+        color:#fff; 
+        }
+        td{
+            color: #000000;
+            font-size: 1rem;
+        }
+        tr:hover{
+            color: #000;
+            background-color: #f5f5f5;
+            transform:scale(1.02) ;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2) -1px -1px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1> Minha primeira tabela</h1>
+    <hr>
+    <table>
+        <tr class="header">
+            <th>Grupo</th>
+            <th>Horario Inicio</th>
+            <th>Horario Término</th>
+            <th>Local</th>
+            <th>Data</th>
+        </tr>
+        <tr>
+            <td>Flores Mindelo</td>
+            <td>15:00</td>
+            <td>15:30</td>
+            <td>Rua Lisboa</td>
+            <td>21 de Fevereiro</td>
+        </tr>
+        <tr>
+            <td>Cruzeiros do Norte</td>
+            <td>15:30</td>
+            <td>16:00</td>
+            <td>Rua Lisboa</td>
+            <td>21 de Fevereiro</td>
+        </tr>
+        <tr>
+            <td>Monte Sossego</td>
+            <td>16:00</td>
+            <td>16:30</td>
+            <td>Rua Lisboa</td>
+            <td>21 de Fevereiro</td>
+        </tr>
+        <tr>
+            <td>Vindos do Oriente</td>
+            <td>16:30</td>
+            <td>17:00</td>
+            <td>Rua Lisboa</td>
+            <td>21 de Fevereiro</td>
+        </tr>
+        <tr>
+            <td>Estrela do Mar</td>
+            <td>17:00</td>
+            <td>17:30</td>
+            <td>Rua Lisboa</td>
+            <td>21 de Fevereiro</td>
+        </tr>
+    </table>
+</body>
+</html>
